@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+
+xmlns:android="http://schemas.android.com/apk/res/android"
+
+xmlns:tools="http://schemas.android.com/tools"
+
+android:layout_width="match_parent"
+
+android:layout_height="match_parent"
+
+android:background="@color/tan_background"
+
+android:orientation="vertical"
+
+tools:context="com.example.android.prepstlouistour.MainActivity">
+
+
+<TextView
+
+    android:id="@+id/learn"
+
+    style="@style/CategoryStyle"
+
+    android:background="@color/category_learn"
+
+    android:text="@string/category_learn" />
+
+<TextView
+
+    android:id="@+id/play"
+
+    style="@style/CategoryStyle"
+
+    android:background="@color/category_play"
+
+    android:text="@string/category_play" />
+
+<TextView
+
+    android:id="@+id/eat"
+
+    style="@style/CategoryStyle"
+
+    android:background="@color/category_eat"
+
+    android:text="@string/category_eat" />
+
+
+<TextView
+
+    android:id="@+id/explore"
+
+    style="@style/CategoryStyle"
+
+    android:background="@color/category_explore"
+
+    android:text="@string/category_explore" />
+
+</LinearLayout>
