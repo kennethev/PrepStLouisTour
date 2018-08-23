@@ -5,50 +5,57 @@ public class Place {
 
         //A string for the places in the area.
 
-        private String tPlacesVisit;
+        private String mPlacesVisit;
 
         //A string for the description of places to visit.
 
-        private String tPlacesDetails;
+        private String mPlacesDetails;
 
         //A string for the addresses of places to visit
-    private String tPlacesAddresses;
+    private String mPlacesAddresses;
 
         //Image resource files for the places to visit.
 
-        private int tPlacesImage;
+        private int mPlacesImage = NO_IMAGE_PROVIDED;
+        private static final int NO_IMAGE_PROVIDED = 0;
 
 
         public Place(String placesVisit, String placesDetails, String placesAddresses,int placesImage) {
 
-            tPlacesVisit = placesVisit;
-
-            tPlacesDetails = placesDetails;
-            tPlacesAddresses = placesAddresses;
-            tPlacesImage = placesImage;
+            mPlacesVisit = placesVisit;
+            mPlacesDetails = placesDetails;
+            mPlacesAddresses = placesAddresses;
+            mPlacesImage = placesImage;
 
         }
 
+    public Place(String placesVisit, String placesDetails, String placesAddresses) {
+        mPlacesVisit = placesVisit;
+        mPlacesDetails = placesDetails;
+        mPlacesAddresses = placesAddresses;
+
+    }
+
+
         public String getPlacesVisit() {
-            return tPlacesVisit;
+            return mPlacesVisit;
 
         }
 
         public String getPlacesDetails() {
-            return tPlacesDetails;
+            return mPlacesDetails;
 
         }
 
-        public String gettPlacesAddresses() {
-            return tPlacesAddresses;
+        public String getPlacesAddresses() {
+            return mPlacesAddresses;
         }
 
         public int getPlacesImage() {
-
-            return tPlacesImage;
+            return mPlacesImage;
 
         }
-
+public boolean hasImage() {return mPlacesImage != NO_IMAGE_PROVIDED;}
     }
 
 

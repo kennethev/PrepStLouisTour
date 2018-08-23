@@ -5,86 +5,85 @@
     <!-- Category name for activites to explore [CHAR LIMIT=20] -->
     <string name="category_explore">EXPLORE</string>
 
-    <string name ="explore_1">"Grant's" Farm</string>
-    <string name ="explore_2"> The Magic House</string>
-    <string name ="explore_3"> Soulard Mardi Gras Festival</string>
-    <string name ="explore_4"> LouFest 2018</string>
+    <string name="explore_1">"Grant's" Farm</string>
+    <string name="explore_2"> The Magic House</string>
+    <string name="explore_3"> Soulard Mardi Gras Festival</string>
+    <string name="explore_4"> LouFest 2018</string>
 
-    <string name ="explore1_details"> See over 900 animals and the Famous Clydesdales</string>
-    <string name ="explore2_details"> Museum for Children. Hands on learning experiences.</string>
-    <string name ="explore3_details"> Largest Mardi Gras festival and parade outside New Orleans</string>
-    <string name ="explore4_details"> Two day outdoor music festival</string>
+    <string name="explore1_details"> See over 900 animals and the Famous Clydesdales</string>
+    <string name="explore2_details"> Museum for Children. Hands on learning experiences.</string>
+    <string name="explore3_details"> Largest Mardi Gras festival and parade outside New Orleans</string>
+    <string name="explore4_details"> Two day outdoor music festival</string>
 
-    <string name ="explore1_address"> www.grantsfarm.com, 10501 Gravois Road, St. Louis, MO</string>
-    <string name ="explore2_address"> www.magichouse.org, 516 Kirkwood Road, St. Louis, MO</string>
-    <string name ="explore3_address"> www.stlmardigras.org, Soulard Neighborhood, St. Louis, MO</string>
-    <string name ="explore4_address"> www.loufest.com, Forest Park, St. Louis, MO</string>
-
+    <string name="explore1_address"> www.grantsfarm.com, 10501 Gravois Road, St. Louis, MO</string>
+    <string name="explore2_address"> www.magichouse.org, 516 Kirkwood Road, St. Louis, MO</string>
+    <string name="explore3_address"> www.stlmardigras.org, Soulard Neighborhood, St. Louis, MO</string>
+    <string name="explore4_address"> www.loufest.com, Forest Park, St. Louis, MO</string>
 
 
     <!-- Category name for the restaurants [CHAR LIMIT=20] -->
 
     <string name="category_eat">EAT</string>
-    <string name ="eat_1">"BB's" Jazz, Blues and Soups</string>
-    <string name ="eat_2">"Bogart's" Smokehouse</string>
-    <string name ="eat_3"> Peacemaker Lobster and Crab</string>
-    <string name ="eat_4">"Charlie Gitto's" on The Hill</string>
+    <string name="eat_1">"BB's" Jazz, Blues and Soups</string>
+    <string name="eat_2">"Bogart's" Smokehouse</string>
+    <string name="eat_3"> Peacemaker Lobster and Crab</string>
+    <string name="eat_4">"Charlie Gitto's" on The Hill</string>
 
-    <string name ="eat1_details"> Known for St. Louis cuisine and jazz</string>
-   <string name ="eat2_details"> Known for downhome BBQ</string>
-    <string name ="eat3_details"> Known for fresh seafood</string>
-    <string name ="eat4_details"> Known for fine Italian dining</string>
+    <string name="eat1_details"> Known for St. Louis cuisine and jazz</string>
+    <string name="eat2_details"> Known for downhome BBQ</string>
+    <string name="eat3_details"> Known for fresh seafood</string>
+    <string name="eat4_details"> Known for fine Italian dining</string>
 
-    <string name ="eat1_address"> 700 S. Broadway, St. Louis, MO</string>
-    <string name ="eat2_address"> 1627 S. Ninth Street, St. Louis, MO</string>
-    <string name ="eat3_address"> 1831 Sidney Street, St. Louis, MO</string>
-    <string name ="eat4_address"> 5226 Shaw Avenue, St. Louis, MO</string>
+    <string name="eat1_address"> 700 S. Broadway, St. Louis, MO</string>
+    <string name="eat2_address"> 1627 S. Ninth Street, St. Louis, MO</string>
+    <string name="eat3_address"> 1831 Sidney Street, St. Louis, MO</string>
+    <string name="eat4_address"> 5226 Shaw Avenue, St. Louis, MO</string>
 
 
     <!-- Category name for colleges under Learn [CHAR LIMIT=20] -->
 
     <string name="category_learn">LEARN</string>
-    <string name ="learn_1">Washington University at St. Louis</string>
-    <string name ="learn_2">St. Louis University</string>
-    <string name ="learn_3">Harris-Stowe State University</string>
-    <string name ="learn_4">Fontbonne University</string>
+    <string name="learn_1">Washington University at St. Louis</string>
+    <string name="learn_2">St. Louis University</string>
+    <string name="learn_3">Harris-Stowe State University</string>
+    <string name="learn_4">Fontbonne University</string>
 
-    <string name ="learn1_details"> Founded on February 22, 1853. Private university known as
+    <string name="learn1_details"> Founded on February 22, 1853. Private university known as
         The Harvard of the Midwest. For more information, go to www.wustl.edu.</string>
-<string name ="learn2_details"> Founded in 1818. A Catholic university located in the heart of
+    <string name="learn2_details"> Founded in 1818. A Catholic university located in the heart of
 downtown. For more information, go to www.slu.edu.</string>
-<string name ="learn3_details">Founded in 1857. Historically Black public university located in the
+    <string name="learn3_details">Founded in 1857. Historically Black public university located in the
  the city.  For more information, go to www.hssu.edu.</string>
-<string name ="learn4_details">Founded in 1923 as a college for Catholic women.It is now
+    <string name="learn4_details">Founded in 1923 as a college for Catholic women.It is now
     a co-ed Liberal Arts located in the suburbs of the city. For more information, go to www.fontbonne.edu.</string>
 
 
-    <string name ="learn1_address"> One Brookings Hall, St. Louis, MO</string>
-    <string name ="learn2_address"> One North Grand, St. Louis, MO</string>
-    <string name ="learn3_address"> 3026 LaClede Avenue, St. Louis, MO</string>
-    <string name ="learn4_address">6800 Wydown Boulevard, Clayton, MO</string>
+    <string name="learn1_address"> One Brookings Hall, St. Louis, MO</string>
+    <string name="learn2_address"> One North Grand, St. Louis, MO</string>
+    <string name="learn3_address"> 3026 LaClede Avenue, St. Louis, MO</string>
+    <string name="learn4_address">6800 Wydown Boulevard, Clayton, MO</string>
 
     <!-- Category name for things to do under Play [CHAR LIMIT=20] -->
 
     <string name="category_play">PLAY</string>
 
-<string name ="play_1"> St. Louis Arch</string>
-<string name ="play_2"> St. Louis Zoo</string>
-<string name ="play_3"> Anheuser-Busch Brewery Tour</string>
-<string name ="play_4"> St. Louis Cardinals</string>
+    <string name="play_1"> St. Louis Arch</string>
+    <string name="play_2"> St. Louis Zoo</string>
+    <string name="play_3"> Anheuser-Busch Brewery Tour</string>
+    <string name="play_4"> St. Louis Cardinals</string>
 
-<string name ="play1_details"> Tallest Arch in the World</string>
-<string name ="play2_details"> Home to 1904 "World's" Fair Flight Cage</string>
-<string name ="play3_details"> Free Beer Tour and stables for Clydesdales</string>
-<string name ="play4_details"> World Series Champions 11 times</string>
+    <string name="play1_details"> Tallest Arch in the World</string>
+    <string name="play2_details"> Home to 1904 "World's" Fair Flight Cage</string>
+    <string name="play3_details"> Free Beer Tour and stables for Clydesdales</string>
+    <string name="play4_details"> World Series Champions 11 times</string>
 
-<string name ="play1_address"> www.gatewayarch.com,11 N. Fourth Street, St. Louis, MO</string>
-<string name ="play2_address"> www.stlzoo.org; Forest Park, St. Louis, MO</string>
-<string name ="play3_address"> www.budweisertours.com; 12th Street and Lynch, St. Louis, MO</string>
-<string name ="play4_address"> www.mlb.com/cardinals; Busch Stadium,St.Louis, MO</string>
+    <string name="play1_address"> www.gatewayarch.com,11 N. Fourth Street, St. Louis, MO</string>
+    <string name="play2_address"> www.stlzoo.org; Forest Park, St. Louis, MO</string>
+    <string name="play3_address"> www.budweisertours.com; 12th Street and Lynch, St. Louis, MO</string>
+    <string name="play4_address"> www.mlb.com/cardinals; Busch Stadium,St.Louis, MO</string>
 
-
-
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 
 
 </resources>

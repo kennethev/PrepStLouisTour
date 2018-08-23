@@ -9,16 +9,11 @@ import android.support.v4.app.FragmentPagerAdapter;
     public class CategoryAdapter extends FragmentPagerAdapter {
 
 
-
         final int PAGE_COUNT = 4;
-
-
 
         private String tabTitles[] = new String[]{"Learn", "Play", "Eat", "Explore"};
 
         private Context context;
-
-
 
         public CategoryAdapter(FragmentManager fm) {
 
@@ -28,17 +23,13 @@ import android.support.v4.app.FragmentPagerAdapter;
 
         }
 
-
-
-        @Override
+       @Override
 
         public int getCount() {
 
             return 4;
 
         }
-
-
 
         @Override
 
@@ -58,15 +49,16 @@ import android.support.v4.app.FragmentPagerAdapter;
 
             } else {
 
-                return new MoreFragment();
+                return new ExploreFragment();
 
             }
 
         }
 
-
-
         @Override
+
+
+
 
         public CharSequence getPageTitle(int position) {
 
@@ -77,4 +69,4 @@ import android.support.v4.app.FragmentPagerAdapter;
     }
 
 
-}
+
