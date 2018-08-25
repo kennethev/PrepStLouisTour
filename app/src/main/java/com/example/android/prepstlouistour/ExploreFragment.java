@@ -26,15 +26,15 @@ public class ExploreFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        View rootView inflater.inflate ( R.layout.word_list, container, false );
+        View rootView = inflater.inflate ( R.layout.word_list, container, false );
 
 
     // Create an arraylist of places to explore
         final ArrayList<Place> places = new ArrayList <Place> ();
-        places.add(new Place (R.string.explore_1, R.string.explore1_details, R.string.explore1_address));
-        places.add(new Place (R.string.explore_2, R.string.explore2_details,R.string.explore2_address));
-        places.add(new Place (R.string.explore_3, R.string.explore3_details, R.string.explore3_address);
-        places.add(new Place (R.string.explore_4, R.string.explore4_details, R.string.explore4_address));
+        places.add(new Place (getString(R.string.explore_1), getString(R.string.explore1_details), getString(R.string.explore1_address)));
+        places.add(new Place (getString(R.string.explore_2), getString(R.string.explore2_details),getString(R.string.explore2_address)));
+        places.add(new Place (getString(R.string.explore_3), getString(R.string.explore3_details),getString( R.string.explore3_address)));
+        places.add(new Place (getString(R.string.explore_4), getString(R.string.explore4_details), getString(R.string.explore4_address)));
 
 
     PlaceAdapter adapter = new PlaceAdapter ( getActivity (),places, R.color.category_explore );

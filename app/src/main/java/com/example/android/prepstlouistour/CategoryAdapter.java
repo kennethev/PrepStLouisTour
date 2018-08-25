@@ -6,67 +6,65 @@ import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentPagerAdapter;
 
 
-    public class CategoryAdapter extends FragmentPagerAdapter {
+public class CategoryAdapter extends FragmentPagerAdapter {
 
 
-        final int PAGE_COUNT = 4;
+    final int PAGE_COUNT = 4;
 
-        private String tabTitles[] = new String[]{"Learn", "Play", "Eat", "Explore"};
+    private String tabTitles[] = new String[]{"Learn", "Play", "Eat", "Explore"};
 
-        private Context context;
+    private Context context;
 
-        public CategoryAdapter(FragmentManager fm) {
+    public CategoryAdapter(FragmentManager fm) {
 
-            super(fm);
+        super ( fm );
 
-            this.context = context;
+        this.context = context;
 
-        }
+    }
 
-       @Override
+    @Override
 
-        public int getCount() {
+    public int getCount() {
 
-            return 4;
+        return 4;
 
-        }
+    }
 
-        @Override
+    @Override
 
-        public Fragment getItem(int position) {
+    public Fragment getItem(int position) {
 
-            if (position == 0) {
+        if (position == 0) {
 
-                return new LearnFragment();
+            return new LearnFragment ();
 
-            } else if (position == 1) {
+        } else if (position == 1) {
 
-                return new PlayFragment();
+            return new PlayFragment ();
 
-            } else if (position == 2) {
+        } else if (position == 2) {
 
-                return new EatFragment();
+            return new EatFragment ();
 
-            } else {
+        } else {
 
-                return new ExploreFragment();
-
-            }
-
-        }
-
-        @Override
-
-
-
-
-        public CharSequence getPageTitle(int position) {
-
-            return tabTitles[position];
+            return new ExploreFragment ();
 
         }
 
     }
+
+    @Override
+
+
+    public CharSequence getPageTitle(int position) {
+
+        return tabTitles[position];
+
+    }
+
+}
 
 
 

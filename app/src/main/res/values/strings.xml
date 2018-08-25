@@ -48,14 +48,10 @@
     <string name="learn_3">Harris-Stowe State University</string>
     <string name="learn_4">Fontbonne University</string>
 
-    <string name="learn1_details"> Founded on February 22, 1853. Private university known as
-        The Harvard of the Midwest. For more information, go to www.wustl.edu.</string>
-    <string name="learn2_details"> Founded in 1818. A Catholic university located in the heart of
-downtown. For more information, go to www.slu.edu.</string>
-    <string name="learn3_details">Founded in 1857. Historically Black public university located in the
- the city.  For more information, go to www.hssu.edu.</string>
-    <string name="learn4_details">Founded in 1923 as a college for Catholic women.It is now
-    a co-ed Liberal Arts located in the suburbs of the city. For more information, go to www.fontbonne.edu.</string>
+    <string name="learn1_details"> Founded on February 22, 1853. Private university known as The Harvard of the Midwest. For more information, go to www.wustl.edu.</string>
+    <string name="learn2_details"> Founded in 1818. A Catholic university located in the heart of downtown. For more information, go to www.slu.edu.</string>
+    <string name="learn3_details">Founded in 1857. Historically Black public university located in the city.  For more information, go to www.hssu.edu.</string>
+    <string name="learn4_details">Founded in 1923 as a college for Catholic women.It is now a co-ed Liberal Arts located in the suburbs of the city. For more information, go to www.fontbonne.edu.</string>
 
 
     <string name="learn1_address"> One Brookings Hall, St. Louis, MO</string>
@@ -81,9 +77,6 @@ downtown. For more information, go to www.slu.edu.</string>
     <string name="play2_address"> www.stlzoo.org; Forest Park, St. Louis, MO</string>
     <string name="play3_address"> www.budweisertours.com; 12th Street and Lynch, St. Louis, MO</string>
     <string name="play4_address"> www.mlb.com/cardinals; Busch Stadium,St.Louis, MO</string>
-
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
 
 
 </resources>

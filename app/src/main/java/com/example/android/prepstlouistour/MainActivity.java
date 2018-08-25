@@ -1,14 +1,9 @@
 package com.example.android.prepstlouistour;
 
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.app.Activity;
-import android.content.Intent;
 import android.support.design.widget.TabLayout;
 import android.support.v4.view.ViewPager;
-import android.view.View;
-import android.widget.ListView;
-import android.widget.TextView;
+import android.support.v7.app.AppCompatActivity;
 
 
 public class MainActivity extends AppCompatActivity {
@@ -32,7 +27,7 @@ public class MainActivity extends AppCompatActivity {
 
         // Create an adapter that knows which fragment should be shown on each page
 
-        CategoryAdapter adapter = new CategoryAdapter ( this, getSupportFragmentManager () );
+        CategoryAdapter adapter = new CategoryAdapter(getSupportFragmentManager ());
 
 
         // Set the adapter onto the view pager
@@ -42,7 +37,7 @@ public class MainActivity extends AppCompatActivity {
 
         // Find the tab layout that shows the tabs
 
-        TabLayout tabLayout = findViewById ( R.id.tabs );
+        TabLayout tabLayout = findViewById (R.id.tabs);
 
 
         // Connect the tab layout with the view pager. This will

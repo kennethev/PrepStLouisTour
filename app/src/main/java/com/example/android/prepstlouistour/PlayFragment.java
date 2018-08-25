@@ -1,6 +1,7 @@
 package com.example.android.prepstlouistour;
 
 
+import android.content.res.Resources;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
@@ -30,28 +31,29 @@ public class PlayFragment extends Fragment {
 
         // Create an arraylist of places to play
         final ArrayList <Place> places = new ArrayList <Place> ();
-places.add(new Place (R.string.play_1, R.string.play1_details, R.string.play1_address));
-places.add(new Place (R.string.play_2, R.string.play2_details,R.string.play2_address));
-places.add(new Place (R.string.play_3, R.string.play3_details, R.string.play3_address);
-places.add(new Place (R.string.play_4, R.string.play4_details, R.string.play4_address));
-
-    }
-PlaceAdapter adapter = new PlaceAdapter ( getActivity (),places, R.color.category_play )
+        places.add ( new Place (getString ( R.string.play_1),getString( R.string.play1_details),getString ( R.string.play1_address )));
+        places.add ( new Place (getString( R.string.play_2), getString (R.string.play2_details), getString (R.string.play2_address )));
+        places.add ( new Place (getString (  R.string.play_3), getString (R.string.play3_details), getString (R.string.play3_address) ));
+        places.add ( new Place ( getString(R.string.play_4), getString (R.string.play4_details), getString(R.string.play4_address) ));
 
 
-    ListView listView = (ListView) rootView.findViewById ( R.id.list );
+        PlaceAdapter adapter = new PlaceAdapter ( getActivity (), places, R.color.category_play );
 
-        listView.setAdapter (adapter);
+
+        ListView listView = (ListView) rootView.findViewById ( R.id.list );
+
+        listView.setAdapter ( adapter );
 
         return rootView;
 
+    }
 }
-}
 
 
 
 
-        }
+
+
 
 
 

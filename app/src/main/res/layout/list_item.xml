@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
         android:orientation="horizontal"
         android:layout_width="match_parent"
         android:layout_height="@dimen/list_item_height"
-        android:background="@color/tan_background"
         android:minHeight="@dimen/list_item_height"
         xmlns:tools="http://schemas.android.com/tools">
 
@@ -12,7 +11,7 @@
         android:layout_height="@dimen/list_item_height"
         android:id="@+id/image"/>
 
-    <LinearLayout
+    <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="@dimen/list_item_height"
         android:id="@+id/text_container"
@@ -65,9 +64,9 @@
             android:layout_marginRight="16dp"
             android:src= "@drawable/baseline_play_arrow_white_24dp"/>
 
-    </LinearLayout>
+    </RelativeLayout>
 
-</LinearLayout>
+</RelativeLayout>
 
 
 
